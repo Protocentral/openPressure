@@ -1,4 +1,4 @@
-# Protocentarl openPressure
+# Protocentral openPressure
 
 ![openPressure](/docs/images/boardSize.jpg)
 
