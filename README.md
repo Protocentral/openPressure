@@ -41,11 +41,11 @@ openPressure is powered by the Arduino Zero board support file.The first thing y
 If you want to program your Zero while offline you need to install the Arduino Desktop IDE and add the Atmel SAMD Core to it. This simple procedure is done selecting Tools menu, then Boards and last Boards Manager, as documented in the Arduino Boards Manager page. 
 
 * Then click Tools > Board > Board Manager
-* You should find Sparkfun ESP8266 boards listed in the Board Manager window.
+* You should find Arduino SAMD(32-bit ARM cortex-M0+) boards listed in the Board Manager window.
 
  ![board_manager](/docs/images/MKR_Zero_BrdMgrAdd.jpg)
  
-*	Press the “Install” button on the chosen ESP8266 category.The download process will begin
+*	Press the “Install” button on the chosen category.The download process will begin
 * Reboot Arduino and look under Tools > Boards and you should see the addition of the Arduino boards in your board list.
 ![board](/docs/images/selectBoard.png)
 
