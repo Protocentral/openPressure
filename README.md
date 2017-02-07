@@ -1,11 +1,11 @@
 # Protocentarl openPressure
 
+![openPressure](/docs/images/boardSize.jpg)
+
 OpenPressure combines an ADS1220 24-bit ADC and a SAMD21 microcontroller to make a complete 24-bit, high precision pressure and temperature sensor interface. 
 OpenPressure is a result of our work in trying to interface pressure sensors to an ADC as well as a display system based on Arduino. We found the ADS1220 to be a great chip that can directly take a 4-wire, 3-wire or a 2-wire sensor and give the digital output. 
 
 Combine this powerful functionality with an ATSAMD21 micro-controller and you've got your very own Arduino-based pressure and temperature sensor interface system.
-
-![openPressure](/docs/images/boardSize.jpg)
 
 Features
 --------
@@ -28,7 +28,7 @@ Repository Contents
 
 Board Overview
 --------------
-![Kalam labelled](/docs/images/boardSize.jpg)
+![ labelled](/docs/images/board.jpg)
 
 Getting Started with openPressure
 --------------------------
@@ -48,6 +48,11 @@ If you want to program your Zero while offline you need to install the Arduino D
 *	Press the “Install” button on the chosen ESP8266 category.The download process will begin
 * Reboot Arduino and look under Tools > Boards and you should see the addition of the Arduino boards in your board list.
 ![board](/docs/images/selectBoard.png)
+
+Setup Arduino Sketch
+--------------------
+We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board
+
 
 This product is open source!
 
