@@ -1,6 +1,6 @@
 # Protocentral openPressure
 
-![openPressure](/docs/images/boardSize.jpg)
+![openPressure](/docs/images/openpressure.jpg)
 
 OpenPressure combines an ADS1220 24-bit ADC and a SAMD21 microcontroller to make a complete 24-bit, high precision pressure and temperature sensor interface. 
 OpenPressure is a result of our work in trying to interface pressure sensors to an ADC as well as a display system based on Arduino. We found the ADS1220 to be a great chip that can directly take a 4-wire, 3-wire or a 2-wire sensor and give the digital output. 
@@ -10,7 +10,7 @@ Combine this powerful functionality with an ATSAMD21 micro-controller and you've
 Features
 --------
 * TI ADS1220 24-bit ADC
-* 4-wire pressure interfaced directly to the inputs
+* 4-wire sensor can be interfaced directly to the inputs
 * On-board 5V band-gap voltage reference
 * ATSAMD21 microcontroller loaded with Arduino M0/Zero bootloader
 * Programmable with the Arduino IDE
@@ -28,11 +28,7 @@ Repository Contents
 
 Board Overview
 --------------
-![ labelled](/docs/images/board.jpg)
-
-Getting Started with openPressure
---------------------------
-Connect the GPIO expaner cap to the Kalam V3 by stacking it on top.Now that the setup is complete,the setup needs to be powered up.Attach a Li-poly battery to the Kalam v2 Iot board.Control the power using the on/off switch
+![ labelled](/docs/images/openpressure-labelled.jpg)
 
 How to setup Arduino support for openPressure
 ---------------------------------------------------
@@ -53,7 +49,8 @@ Setup Arduino Sketch
 --------------------
 We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board
 
-
+License Information
+-------------------
 This product is open source!
 
 Please use, reuse, and modify these files as you see fit. Please maintain attribution to Protocentral and release anything derivative under the same license.
