@@ -1,11 +1,10 @@
-# Protocentral openPressure
+# Protocentral OpenPressure
 
-![openPressure](/docs/images/openpressure.jpg)
+![OpenPressure](/docs/images/openpressure.jpg)
 
-OpenPressure combines an ADS1220 24-bit ADC and a SAMD21 microcontroller to make a complete 24-bit, high precision pressure and temperature sensor interface. 
 OpenPressure is a result of our work in trying to interface pressure sensors to an ADC as well as a display system based on Arduino. We found the ADS1220 to be a great chip that can directly take a 4-wire, 3-wire or a 2-wire sensor and give the digital output. 
 
-Combine this powerful functionality with an ATSAMD21 micro-controller and you've got your very own Arduino-based pressure and temperature sensor interface system.
+Combine this powerful functionality with an ATSAMD21 micro-controller and you've got your very own Arduino-compatible pressure and temperature sensor interface system.
 
 Features
 --------
@@ -23,7 +22,7 @@ Features
 Repository Contents
 -------------------
 * **/hardware** - All Eagle design files (.brd, .sch)
-* **/libraries** - Arduino libraries and example code
+* **/arduino_code** - Arduino libraries and example code
 * **/docs** - Additional Documentation
 
 Board Overview
@@ -32,7 +31,7 @@ Board Overview
 
 How to setup Arduino support for openPressure
 ---------------------------------------------------
-openPressure is powered by the Arduino Zero board support file.The first thing you will need to do is to download the latest release of the Arduino IDE. You will need to be using version 1.6.4 or higher. 
+OpenPressure is powered by the Arduino Zero board support file.The first thing you will need to do is to download the latest release of the Arduino IDE. You will need to be using version 1.6.4 or higher. 
 
 If you want to program your Zero while offline you need to install the Arduino Desktop IDE and add the Atmel SAMD Core to it. This simple procedure is done selecting Tools menu, then Boards and last Boards Manager, as documented in the Arduino Boards Manager page. 
 
@@ -47,7 +46,7 @@ If you want to program your Zero while offline you need to install the Arduino D
 
 Setup Arduino Sketch
 --------------------
-We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board
+We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board, you simple need to upload the code to your board.
 
 License Information
 -------------------
