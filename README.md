@@ -22,7 +22,7 @@ Features
 Repository Contents
 -------------------
 * **/hardware** - All Eagle design files (.brd, .sch)
-* **/arduino_code** - Arduino libraries and example code
+* **/software** - Arduino libraries and example code
 * **/docs** - Additional Documentation
 
 Board Overview
@@ -35,18 +35,18 @@ OpenPressure is powered by the Arduino Zero board support file.The first thing y
 
 If you want to program your Zero while offline you need to install the Arduino Desktop IDE and add the Atmel SAMD Core to it. This simple procedure is done selecting Tools menu, then Boards and last Boards Manager, as documented in the Arduino Boards Manager page. 
 
-* Then click Tools > Board > Board Manager
+* Select Tools > Board > Board Manager
 * You should find Arduino SAMD(32-bit ARM cortex-M0+) boards listed in the Board Manager window.
 
  ![board_manager](/docs/images/MKR_Zero_BrdMgrAdd.jpg)
  
-*	Press the “Install” button on the chosen category.The download process will begin
-* Reboot Arduino and look under Tools > Boards and you should see the addition of the Arduino boards in your board list.
+* Click the “Install” button on the chosen category.The download process will begin and install the toolchain for SAMD microcontrollers.
+* Restart Arduino and look under Tools > Boards and you should see the addition of the Arduino boards in your board list.
 ![board](/docs/images/selectBoard.png)
 
 Setup Arduino Sketch
 --------------------
-We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board, you simple need to upload the code to your board.
+We have provided a few Arduino sketch examples . They are designed to work right away with no changes. To make the examples work with your board, you simply need to upload the code to your board.
 
 License Information
 -------------------
